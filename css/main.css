@@ -1,0 +1,306 @@
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 900px;
+    background-image: url("../assets/faouzia_header_image.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-con{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    height: 50px;
+    color: white;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.hero{
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+.button-group{
+    height: 70px;
+    margin-top: 70px;
+}
+
+.play{
+    width: 225px;
+    height: 66px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border-radius: 70px;
+    margin-right: 20px;
+}
+
+.play:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.shuffle{
+    width: 225px;
+    height: 66px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border-radius: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shuffle:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.heart{
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border-radius: 70px;
+    margin-left: 20px;
+}
+
+.heart:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.col-box{
+    width: 100%;
+    height: 277px;
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.video{
+    width: 100%;
+    height: 390px;
+    margin-top: -60px;
+    margin-left: 122px;
+}
+
+.text{
+    width: 50%;
+    height: 560px;
+    background-color: #CCCCCC;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+.left{
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.left:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.right{
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.right:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.albums{
+    width: 277px;
+    height: 277px;
+    background-color: lightgray;
+    float: left;
+    margin: 30px;
+}
+
+.releases{
+    margin-top: 80px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.about{
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+.info{
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.info:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.call{
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.call:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.map{
+    width: 200px;
+    height: 50px;
+    background-color: lightgrey;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 122px;
+    background-color: #CCCCCC;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.input-el{
+    width: 40%;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+select, button {
+    width: 95% !important;
+}
+
+footer{
+    width: 100%;
+    height: 180px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 122px;
+
+    padding-right: 122px;
+}
+
+footer p{
+    width: 200px;
+    float: left;
+}
+
+.social-media{
+    height: 50px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
