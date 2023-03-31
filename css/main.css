@@ -39,6 +39,8 @@ nav{
     height: 50px;
     color: white;
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -48,18 +50,48 @@ nav{
     color: white;
     font-weight: bold;
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     padding-top: 20px;
     padding-right: 20px;
+}
+
+.search{
+    width: 225px;
+    height: 50px;
+    border: 2px solid lightblue;
+    color: white;
+    text-align: center;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin-right: 50px;
 }
 
 .hero{
     width: 90%;
     margin-top: 200px;
-    margin-left: 10%;
+    margin-left: 122px;
+}
+
+.hero h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
 }
 
 .button-group{
     height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     margin-top: 70px;
 }
 
@@ -120,28 +152,44 @@ nav{
 
 .col-box{
     width: 100%;
-    height: 277px;
     background-color: lightgray;
     text-align: center;
-    margin-top: 30px;
 }
 
 .video{
     width: 100%;
     height: 390px;
+    margin: 0 auto;
     margin-top: -60px;
     margin-left: 122px;
 }
 
-.text{
-    width: 50%;
+.featured{
+    width: 100%;
     height: 560px;
-    background-color: #CCCCCC;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
     padding-top: 40px;
     padding-left: 80px;
     padding-right: 80px;
+    margin: 0 auto;
     margin-top: -60px;
-    margin-left: -60px;
+    margin-right: 122px;
+}
+
+.featured h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.featured h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.featured p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 .left{
@@ -180,18 +228,150 @@ nav{
     color: black;
 }
 
-.albums{
+.album-1{
     width: 277px;
     height: 277px;
-    background-color: lightgray;
-    float: left;
+    background-image: url("../assets/endless_summer_vacation_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
     margin: 30px;
-}
-
-.releases{
-    margin-top: 80px;
     margin-left: 122px;
     margin-right: 122px;
+}
+
+.album-2{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/trustfall_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-3{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/gloria_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-4{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/diamonds_&_dancefloors_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-5{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/5sos5_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-6{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/legend_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-7{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/special_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-8{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/mercury_acts_1_&_2_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-9{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/harry\'s_house_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-10{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/so_far_so_good_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-11{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/between_us_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.album-12{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/=_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.recent{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 122px;
+}
+
+.popular{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 122px;
 }
 
 .about{
@@ -273,13 +453,14 @@ footer{
     color: white;
     padding-top: 60px;
     padding-left: 122px;
-
     padding-right: 122px;
 }
 
 footer p{
     width: 200px;
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .social-media{
