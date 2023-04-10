@@ -19,15 +19,15 @@ header{
 
 nav{
     width: 100%;
-    height: 80px;
-    padding-top: 20px;
+    height: 100px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .nav-con{
     width: 100%;
-    height: 80px;
+    height: 50px;
     float: left;
 }
 
@@ -41,41 +41,52 @@ nav{
     float: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    padding-top: 20px;
+    padding-top: 12px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .logo{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/stream_small_logo_white.png");
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-right: 15px;
+}
+
+.stream{
     color: white;
     font-weight: bold;
     float: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 24px;
+    padding-top: 8px;
     padding-right: 20px;
 }
 
 .search{
     width: 225px;
     height: 50px;
-    border: 2px solid lightblue;
+    border: 3px solid lightblue;
+    background-color: rgba(32, 32, 32, 0.6);
     color: white;
-    text-align: center;
     float: right;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
     border-radius: 50px;
-    margin-right: 50px;
+    margin-top: -15px;
 }
 
 .hero{
     width: 90%;
     margin-top: 200px;
     margin-left: 122px;
+    margin-right: 122px;
 }
 
 .hero h3{
@@ -97,30 +108,33 @@ nav{
 
 .play{
     width: 225px;
-    height: 66px;
-    border: 2px solid lightblue;
+    height: 70px;
+    border: 3px solid lightblue;
     background-color: lightblue;
     color: black;
     font-weight: bold;
     text-align: center;
     float: left;
+    padding-top: 15px;
     border-radius: 70px;
     margin-right: 20px;
 }
 
 .play:hover{
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
 }
 
 .shuffle{
     width: 225px;
-    height: 66px;
-    border: 2px solid lightblue;
+    height: 70px;
+    border: 3px solid lightblue;
     color: white;
     font-weight: bold;
     text-align: center;
     float: left;
+    padding-top: 15px;
     border-radius: 70px;
     margin-left: 20px;
     margin-right: 20px;
@@ -135,10 +149,9 @@ nav{
 .heart{
     width: 70px;
     height: 70px;
-    border: 2px solid lightblue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    background-image: url("../assets/white_heart_icon.svg");
+    background-position: center;
+    background-size: cover;
     float: left;
     border-radius: 70px;
     margin-left: 20px;
@@ -147,7 +160,6 @@ nav{
 .heart:hover{
     cursor: pointer;
     background-color: lightblue;
-    color: black;
 }
 
 .col-box{
@@ -156,22 +168,19 @@ nav{
     text-align: center;
 }
 
-.video{
-    width: 100%;
-    height: 390px;
-    margin: 0 auto;
-    margin-top: -60px;
-    margin-left: 122px;
+.col-3{
+    width: 307px;
+    float: left;
 }
 
 .featured{
-    width: 100%;
+    width: 90%;
     height: 560px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: #2b2b2b99;
     color: white;
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 60px;
     margin: 0 auto;
     margin-top: -60px;
     margin-right: 122px;
@@ -192,40 +201,51 @@ nav{
     font-size: 18px;
 }
 
+.right{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/right_arrow_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    border-radius: 50px;
+    margin-top: 120px;
+    margin-right: -30px;
+}
+
+.right:hover{
+    cursor: pointer;
+    background-color: rgb(82, 39, 25);
+}
+
 .left{
     width: 50px;
     height: 50px;
-    border: 2px solid lightblue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    background-image: url("../assets/left_arrow_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
     float: right;
     border-radius: 50px;
+    margin-top: 120px;
     margin-right: 20px;
 }
 
 .left:hover{
     cursor: pointer;
-    background-color: lightblue;
-    color: black;
+    background-color: rgb(82, 39, 25);
 }
 
-.right{
-    width: 50px;
-    height: 50px;
-    border: 2px solid lightblue;
+.recent{
+    width: 90%;
     color: white;
-    font-weight: bold;
-    text-align: center;
-    float: right;
-    border-radius: 50px;
-    margin-right: 20px;
-}
-
-.right:hover{
-    cursor: pointer;
-    background-color: lightblue;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-left: 122px;
+    padding-right: 122px;
 }
 
 .album-1{
@@ -234,9 +254,7 @@ nav{
     background-image: url("../assets/endless_summer_vacation_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-2{
@@ -245,9 +263,7 @@ nav{
     background-image: url("../assets/trustfall_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-3{
@@ -256,9 +272,7 @@ nav{
     background-image: url("../assets/gloria_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-4{
@@ -267,9 +281,7 @@ nav{
     background-image: url("../assets/diamonds_&_dancefloors_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-5{
@@ -278,9 +290,7 @@ nav{
     background-image: url("../assets/5sos5_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-6{
@@ -289,9 +299,7 @@ nav{
     background-image: url("../assets/legend_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-7{
@@ -300,9 +308,7 @@ nav{
     background-image: url("../assets/special_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-8{
@@ -311,9 +317,7 @@ nav{
     background-image: url("../assets/mercury_acts_1_&_2_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-9{
@@ -322,9 +326,7 @@ nav{
     background-image: url("../assets/harry\'s_house_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-10{
@@ -333,9 +335,7 @@ nav{
     background-image: url("../assets/so_far_so_good_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-11{
@@ -344,9 +344,7 @@ nav{
     background-image: url("../assets/between_us_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
 .album-12{
@@ -355,96 +353,315 @@ nav{
     background-image: url("../assets/=_album_cover.jpg");
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin: 15px;
 }
 
-.recent{
-    color: white;
-    margin-top: 80px;
-    margin-bottom: 10px;
-    margin-left: 122px;
+.action{
+    width: 277px;
+    height: 207px;
+    padding-top: 80px;
+    opacity: 0;
 }
 
-.popular{
+.action:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.start{
+    width: 70px;
+    height: 70px;
+    background-image: url("../assets/black_play_media_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 70px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 277px;
+    height: 70px;
+    background-color: rgba(0,0,0,0.6);
     color: white;
-    margin-top: 80px;
-    margin-bottom: 10px;
-    margin-left: 122px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 57px;
+}
+
+.content p, h3{
+    margin: 0;
+}
+
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .about{
-    width: 50%;
     color: white;
     float: left;
+    margin-top: 175px;
+    margin-left: 122px;
+}
+
+.about h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.about h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.contact{
+    width: 220px;
+    height: 50px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.email{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/email_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border-radius: 50px;
+}
+
+.email:hover{
+    cursor: pointer;
+    background-color: rgb(82, 39, 25);
 }
 
 .info{
-    width: 50px;
-    height: 50px;
-    border: 2px solid lightblue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    float: left;
-    border-radius: 50px;
-    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 60px;
 }
 
-.info:hover{
+.phone{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/phone_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border-radius: 50px;
+}
+
+.phone:hover{
     cursor: pointer;
-    background-color: lightblue;
-    color: black;
+    background-color: rgb(82, 39, 25);
 }
 
 .call{
-    width: 50px;
-    height: 50px;
-    border: 2px solid lightblue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    float: left;
-    border-radius: 50px;
-    margin-right: 20px;
-}
-
-.call:hover{
-    cursor: pointer;
-    background-color: lightblue;
-    color: black;
-}
-
-.map{
-    width: 200px;
-    height: 50px;
-    background-color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 60px;
 }
 
 form{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 122px;
-    background-color: #CCCCCC;
+    background-color: #2b2b2b;
     color: white;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 175px;
+    margin-right: 122px;
 }
 
 .input-el{
-    width: 40%;
+    width: 100%;
     height: 50px;
-    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     padding-left: 15px;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
+    margin-top: 25px;
 }
 
-select, button {
-    width: 95% !important;
+button{
+    width: 225px !important;
+    background-color: lightblue !important;
+    color: black !important;
+    margin-left: 200px;
+}
+
+.tab{
+    margin-top: 85px;
+    margin-left: 122px;
+    margin-right: 70px;
+    margin-bottom: 140px;
+}
+
+.title{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.cover{
+    width: 470px;
+    height: 470px;
+    background-image: url("../assets/cover_image.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 150px;
+    margin-top: 50px;
+}
+
+.cover h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+}
+
+.cover h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.figure{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/stream_small_logo_white.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 220px;
+}
+
+.table{
+    margin-top: 130px;
+}
+
+table, th, td{
+    color: white;
+}
+
+.bar{
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.line-element{
+    width: 100%;
+    height: 40px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: white
+}
+
+.line-fill{
+    width: 50%;
+    height: 5px;
+    background-color: lightblue;
+}
+
+.marker{
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: -18px;
+}
+
+.thumb{
+    width: 70px;
+    height: 70px;
+    background-image: url("../assets/anti-hero_album_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.anti{
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.previous{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/previous_media_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-right: 30px;
+}
+
+.pause{
+    width: 100px;
+    height: 100px;
+    background-image: url("../assets/pause_media_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.next{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/next_media_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+
+.duration{
+    color: white;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 2px;
+    float: right;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/options_media_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
 }
 
 footer{
@@ -461,27 +678,77 @@ footer p{
     float: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .social-media{
     height: 50px;
 }
 
-.social{
+.social-1{
     width: 50px;
     height: 50px;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    background-image: url("../assets/youtube_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
     float: right;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
 }
 
-.social:hover{
+.social-1:hover{
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: rgb(82, 39, 25);
+}
+
+.social-2{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/facebook_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.social-2:hover{
+    cursor: pointer;
+    background-color: rgb(82, 39, 25);
+}
+
+.social-3{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/twitter_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.social-3:hover{
+    cursor: pointer;
+    background-color: rgb(82, 39, 25);
+}
+
+.social-4{
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/instagram_icon.svg");
+    filter: invert(100%);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.social-4:hover{
+    cursor: pointer;
+    background-color: rgb(82, 39, 25);
 }
